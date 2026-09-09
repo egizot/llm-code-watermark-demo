@@ -1,0 +1,16 @@
+libcst
+autopep8
+chardet
+streamlit
+torch
+transformers
+accelerate
+huggingface_hub
+tqdm
+joblib
+scikit-learn
+pandas
+langchain-core
+langchain-huggingface
+sourcery
+ruff
