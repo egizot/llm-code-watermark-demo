@@ -1,0 +1,41 @@
+{
+  "Random Forest": {
+    "default": 0.5,
+    "fpr_5pct": {
+      "threshold": 0.049545518419069075,
+      "achieved_tpr": 0.9991666666666666,
+      "achieved_fpr": 0.037011651816312545
+    },
+    "fpr_1pct": {
+      "threshold": 0.5602102932869903,
+      "achieved_tpr": 0.995,
+      "achieved_fpr": 0.008910212474297465
+    }
+  },
+  "LogReg L1 (Lasso)": {
+    "default": 0.5,
+    "fpr_5pct": {
+      "threshold": 0.3537007968549476,
+      "achieved_tpr": 0.99875,
+      "achieved_fpr": 0.030843043180260453
+    },
+    "fpr_1pct": {
+      "threshold": 0.976445644802302,
+      "achieved_tpr": 0.8375,
+      "achieved_fpr": 0.009595613433858808
+    }
+  },
+  "LogReg L2 (Ridge)": {
+    "default": 0.5,
+    "fpr_5pct": {
+      "threshold": 0.3976782586105834,
+      "achieved_tpr": 0.99875,
+      "achieved_fpr": 0.033584647018505824
+    },
+    "fpr_1pct": {
+      "threshold": 0.977609133768814,
+      "achieved_tpr": 0.1575,
+      "achieved_fpr": 0.009595613433858808
+    }
+  }
+}
